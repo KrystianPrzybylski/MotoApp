@@ -5,8 +5,8 @@ public class App : IApp
     public void Run()
     {
         global::System.Console.WriteLine("tekst po zmianach");
-       Console.WriteLine("Jestem tutaj, interfejs dzia³a.");
-        Console.Readkey();
+       Console.WriteLine("Jestem tutaj, interfejs dzia³a.Turbo dzia³a gówno dzia³a");
+        Console.ReadKey();
 
     }
 }
