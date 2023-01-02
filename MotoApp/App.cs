@@ -6,6 +6,7 @@ public class App : IApp
     {
         global::System.Console.WriteLine("tekst po zmianach");
        Console.WriteLine("Jestem tutaj, interfejs dzia³a.");
+        Console.Readkey();
 
     }
 }
