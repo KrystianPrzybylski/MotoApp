@@ -1,12 +1,12 @@
-//using MotoApp.Entities;
-//namespace MotoApp.DataProviders;
+using MotoApp.Entities;
+namespace MotoApp.DataProviders;
 
 
-//public interface ICarsProvider
-//{
-//	List<Car> FilterCars(decimal minPrice);
+public interface ICarsProvider
+{
+	List<Car> FilterCars(decimal minPrice);
 
-//	List<string> GetUniqueCarColors();
+	List<string> GetUniqueCarColors();
 
-//	decimal GetMinimumPriceOfAllCars();
-//}
+	decimal GetMinimumPriceOfAllCars();
+}

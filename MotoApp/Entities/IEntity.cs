@@ -1,9 +1,10 @@
 ﻿
-namespace MotoApp.Entities
+//namespace MotoApp.Entities
+namespace MotoApp
 {
     public interface IEntity
     {
-                int Id { get; set; }
+           public  int Id { get; set; }
 
     }
 }

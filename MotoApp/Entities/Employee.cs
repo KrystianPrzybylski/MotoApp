@@ -1,10 +1,12 @@
 ﻿
-
-namespace MotoApp.Entities
+using MotoApp;
+using MotoApp.Entities;
+//namespace MotoApp.Entities
+namespace MotoApp
 {
-    public class Employee:EntityBase
+    public class Employee : EntityBase
     {
-       public Employee() { }
+        public Employee() { }
         public Employee(string name)
         {
 
